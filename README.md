@@ -1,6 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
-* [`1.4.4`, `1.4`, `latest` (1.4/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/01c1fd4941a70f6b996d3232a6a8c7f3ef3b4ad6/Dockerfile)
+* [`1.5.0`, `1.5`, (1.5/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/ab1d4e41ce00fec38c9ec1e2c81e868732610be9/Dockerfile)
+* [`1.4.4`, `1.4`, (1.4/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/01c1fd4941a70f6b996d3232a6a8c7f3ef3b4ad6/Dockerfile)
 * [`1.3.4`, `1.3` (1.3/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/13e093b5cbc2866a26c2578d94312a08faa60f8a/Dockerfile)
 
 # What is this image?
