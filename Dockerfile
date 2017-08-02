@@ -1,4 +1,4 @@
-FROM elixir:1.5.0
+FROM elixir:1.5.1-alpine
 
 MAINTAINER Anthony Smith <anthony@sticksnleaves.com>
 
