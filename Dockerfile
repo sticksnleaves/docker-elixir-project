@@ -1,4 +1,4 @@
-FROM elixir:1.6.6
+FROM elixir:1.7.0
 
 MAINTAINER Anthony Smith <anthony@sticksnleaves.com>
 
