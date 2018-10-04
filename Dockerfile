@@ -8,6 +8,7 @@ RUN mix local.hex --force && \
     mix local.rebar --force
 
 RUN apk add --no-cache git && \
-    apk add --no-cache build-base
+    apk add --no-cache build-base && \
+    apk add --no-cache bash
 
 WORKDIR $APP_HOME
