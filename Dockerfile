@@ -2,7 +2,7 @@ FROM erlang:21-alpine
 
 MAINTAINER Anthony Smith <anthony@sticksnleaves.com>
 
-ENV ELIXIR_VERSION="v1.7.3"
+ENV ELIXIR_VERSION="v1.7.4"
 ENV LANG=C.UTF-8
 
 ENV APP_HOME /usr/src/app
@@ -10,7 +10,7 @@ ENV APP_HOME /usr/src/app
 RUN set -xe \
       && OTP_MAJOR_VERSION=${OTP_VERSION:0:2} \
       && ELIXIR_DOWNLOAD_URL="https://repo.hex.pm/builds/elixir/${ELIXIR_VERSION}-otp-${OTP_MAJOR_VERSION}.zip" \
-      && ELIXIR_DOWNLOAD_SHA256="2ea1eef6751c54b475225f20caaad20702c198fbddff1cb1513b03aee25a5f90" \
+      && ELIXIR_DOWNLOAD_SHA256="f68ec78f93b995332bda461ab5bc039b521889a7c43dcde0c734ca4da878d922" \
       && buildDeps=' \
 		          ca-certificates \
 		          curl \
