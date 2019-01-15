@@ -2,7 +2,7 @@ FROM erlang:21-alpine
 
 MAINTAINER Anthony Smith <anthony@sticksnleaves.com>
 
-ENV ELIXIR_VERSION="v1.7.4"
+ENV ELIXIR_VERSION="v1.8.0"
 ENV LANG=C.UTF-8
 
 ENV APP_HOME /usr/src/app
