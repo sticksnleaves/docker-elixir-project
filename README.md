@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-* [`1.8.0`, `1.8`, `latest` (1.8/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/0b31005c2ee79c218d58c887198effbfbc86c35f/Dockerfile)
+* [`1.8.1`, `1.8`, `latest` (1.8/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/272574844e127132d413cfeb5817d8c5f43e9a77/Dockerfile)
 * [`1.7.4`, `1.7` (1.7/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/4a366f7dce329d7ddbb00a2becc9b7899ff9bd85/Dockerfile)
 * [`1.6.6`, `1.6` (1.6/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/8fe681365cc71d868c8458dcdece4afbde66c97e/Dockerfile)
 * [`1.5.3`, `1.5` (1.5/Dockerfile)](https://github.com/sticksnleaves/docker-elixir-project/blob/873821310a246daa9463e181db6211cabf04c9f3/Dockerfile)
