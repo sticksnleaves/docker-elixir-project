@@ -1,8 +1,8 @@
-FROM erlang:21-alpine
+FROM erlang:22-alpine
 
 MAINTAINER Anthony Smith <anthony@sticksnleaves.com>
 
-ENV ELIXIR_VERSION="v1.8.1"
+ENV ELIXIR_VERSION="v1.8.2"
 ENV LANG=C.UTF-8
 
 ENV APP_HOME /usr/src/app
@@ -10,7 +10,7 @@ ENV APP_HOME /usr/src/app
 RUN set -xe \
       && OTP_MAJOR_VERSION=${OTP_VERSION:0:2} \
       && ELIXIR_DOWNLOAD_URL="https://repo.hex.pm/builds/elixir/${ELIXIR_VERSION}-otp-${OTP_MAJOR_VERSION}.zip" \
-      && ELIXIR_DOWNLOAD_SHA256="c14198ca14f590375857b6ed20527cb9c93f6d424480792492b4e7650d57de9a" \
+      && ELIXIR_DOWNLOAD_SHA256="4244bb42eedd051c2b5038d495828a04779b47f1aead63826be66832fa535906" \
       && buildDeps=' \
 		          ca-certificates \
 		          curl \
